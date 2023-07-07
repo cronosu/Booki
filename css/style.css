@@ -280,7 +280,6 @@ form {
 /*fin hébergement*/
 /*activité*/
 .activiteMarseille {
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,33 +288,31 @@ form {
 
 .activiteMarseilleAllcars {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    gap: 15px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .card-content-ActiviteMarseille {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 23%;
     height: 439px;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.163);
-
-
+   
 }
 
 .card-content-ActiviteMarseille h3 {
-    font-size: 16px;
     padding: 20px 19px;
-
+    font-size: 16px;
+    line-height: 15px;
 }
 
 .card-content-ActiviteMarseille img {
-
-    min-height: 380px;
-    object-fit: none;
+    min-height: 385px;
+    object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 
@@ -436,25 +433,22 @@ body {
 
 footer {
     background-color: var(--main-bg-color);
-margin-top: 35px;
+    margin-top: 35px;
 }
 
 .containerFooter {
     display: flex;
     gap: 30px;
     align-items: center;
-   
-   align-items: normal;
 }
 
 .blockFooter {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 20px;
     width: 100%;
-    height:100% ;
- 
+    height: 100%;
+
 }
 
 .blockFooter ul {
