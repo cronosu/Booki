@@ -436,7 +436,7 @@ body {
 
 footer {
     background-color: var(--main-bg-color);
-
+margin-top: 35px;
 }
 
 .containerFooter {
