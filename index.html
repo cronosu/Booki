@@ -12,6 +12,8 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/equalThan1024px.css">
+    <link rel="stylesheet" href="./css/lessThan768px.css">
 </head>
 
 <body>
@@ -21,7 +23,7 @@
             <nav>
                 <ul>
                     <li class="heberAndPop"><a class="navLink" href="#hebergements-and-populaires">Hébergements</a></li>
-                    <li class="ActiMar"><a class="navLink" href="#Activités à Marseille">Activités</a></li>
+                    <li class="ActiMar"><a class="navLink" href="#activiteMarseille">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,7 +37,7 @@
                 <form class="search" action="" method="post">
                     <div class="logoDestination"><i class="fa-solid fa-location-dot"></i></div>
                     <input class="inputSearch" placeholder="Marseille,France" type="text">
-                    <button type="button"><i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    <button type="button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>
                         <p>Recherche</p>
                     </button>
                 </form>
@@ -65,7 +67,7 @@
 
             </div>
 
-            <div class="hebergements-and-populaires">
+            <div id="hebergements-and-populaires" class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -83,7 +85,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -101,7 +104,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -118,7 +122,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -136,7 +141,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -154,7 +160,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -172,7 +179,8 @@
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                        <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                            aria-hidden="true"></i>
                                         <span class="sr-only">Note de 4 sur 5</span>
                                     </div>
                                 </div>
@@ -203,7 +211,8 @@
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                        aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
                             </div>
@@ -221,14 +230,15 @@
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                        aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
                             </div>
                         </article>
                         <article class="card">
                             <img src="./images/hebergements/febrian-zakaria2.jpg"
-                            alt="Image de la chambre d'hôtel montrant un lit">
+                                alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
                                 <div class="card-txt">
                                     <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -239,7 +249,8 @@
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                    <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                    <i id="neutral-star" class="fa-xs fa-solid fa-star neutral-star"
+                                        aria-hidden="true"></i>
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
                             </div>
@@ -247,7 +258,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activiteMarseille">
+            <div id="activiteMarseille" class="activiteMarseille">
                 <h2 class="titre">Activités à Marseille</h2>
                 <div class="activiteMarseilleAllcars">
                     <article class="card-content-ActiviteMarseille">
@@ -259,18 +270,47 @@
                         <h3>Fort de Pomèges</h3>
                     </article>
                     <article class="card-content-ActiviteMarseille">
-                        <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du Parc nationnal Des Calanques">
-                        <h3>Parc nationnal Des Calanques</h3>
+                        <img src="./images/activites/kilyan-sockalingum.jpg"
+                            alt="Image du Parc nationnal Des Calanques">
+                        <h3>Parc nationnal des Calanques</h3>
                     </article>
                     <article class="card-content-ActiviteMarseille">
                         <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde">
                         <h3>Notre-Dame-de-la-Garde</h3>
                     </article>
-                    
+
                 </div>
             </div>
         </main>
-        <footer>Footer</footer>
+        <footer>
+            <div class="containerFooter">
+                <div class="blockFooter">
+                    <h3 class="titreFooter">À propos</h3>
+                    <ul>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
+                </div>
+                <div class="blockFooter">
+                    <h3 class="titreFooter">Nos hébergements</h3>
+                    <ul>
+                        <li>Charte qualité</li>
+                        <li>Proposer votre hôtel</li>
+                    
+                    </ul>
+                </div>
+                <div class="blockFooter">
+                    <h3 class="titreFooter">Assistance</h3>
+                    <ul>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </footer>
     </div>
 </body>
 
