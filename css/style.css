@@ -303,11 +303,18 @@ form {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.163);
    
 }
+.card-content-H3{
+    display: flex;
+    align-items:center;
+    height: 100%;
 
+}
 .card-content-ActiviteMarseille h3 {
-    padding: 20px 19px;
     font-size: 16px;
     line-height: 15px;
+  
+    margin-left: 19px;
+  
 }
 
 .card-content-ActiviteMarseille img {

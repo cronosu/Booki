@@ -149,6 +149,7 @@
 
     /*Activité à Marseille*/
 
+
     .activiteMarseille {
         margin: 30px;
     }
@@ -161,22 +162,28 @@
 
     .card-content-ActiviteMarseille {
         width: 100%;
-        height: 200px;
+        height: 100%;
+       
     }
 
     .card-content-ActiviteMarseille img {
-
-        min-height: 50%;
         object-fit: cover;
-
+        height: 141px;
     }
-   
+    .card-content-ActiviteMarseille h3 {
+        padding: 20px;
+    }
+    .card-content-H3 {
+        
+        height: 50%;
+    }
+
     /*fin de Activité à Marseille*/
     /*Footer*/
     .containerFooter {
-        
+
         flex-direction: column;
-        padding :30px;
+        padding: 30px;
         gap: 50px;
     }
 
