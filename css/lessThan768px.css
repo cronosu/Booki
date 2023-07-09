@@ -21,7 +21,7 @@
         position: absolute;
         width: 100%;
         gap: 0;
-        border-bottom: 1px solid var(--main-color);
+        border-bottom: 1px solid var(--main-bg-color);
     }
 
     nav ul li {
@@ -85,18 +85,26 @@
         flex-wrap: wrap;
         width: 100%;
         height: auto;
-        align-items: center;
-        justify-content: space-between;
     }
 
     .filtre ul {
-        justify-content: grid;
         flex-wrap: wrap;
         gap: 10px;
+        display: flex;
+        align-items: center;
+
+        justify-content:left;
     }
 
     .filtre ul li {
-        width: 39%;
+        min-width: 120px;
+        width: 25%;
+        font-size: 14px;
+        
+    }
+
+    .filtre li .fa-solid {
+        font-size: initial;
     }
 
 
@@ -140,11 +148,17 @@
 
     .populaires-cards {
         flex-direction: column;
+
     }
 
     .populaires-cards .card {
         width: 100%;
+        height: 150px;
         margin-top: 15px;
+    }
+
+    .populaires-cards img {
+        height: initial;
     }
 
     /*Activité à Marseille*/
@@ -163,27 +177,27 @@
     .card-content-ActiviteMarseille {
         width: 100%;
         height: 100%;
-       
+
     }
 
     .card-content-ActiviteMarseille img {
         object-fit: cover;
         height: 141px;
     }
+
     .card-content-ActiviteMarseille h3 {
         padding: 20px;
     }
+
     .card-content-H3 {
-        
+
         height: 50%;
     }
 
     /*fin de Activité à Marseille*/
     /*Footer*/
     .containerFooter {
-
         flex-direction: column;
-        padding: 30px;
         gap: 50px;
     }
 

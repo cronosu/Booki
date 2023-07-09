@@ -5,6 +5,7 @@
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
+        gap:50px ;
     }
 
     .hebergements {
@@ -23,6 +24,7 @@
 
     .populaires-cards .card {
         width: 30%;
+        
     }
 
     .populaires-cards .card-title {
@@ -77,6 +79,23 @@
 
     }
 
+    .filtre ul li {
+        font-size: 16px;
     
+    }
+
+    .hebergementsallCards {
+      
+        justify-content: none;
+     
+    }
     /*fin de activité*/
+     .filtre {
+        display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       height: auto;
+       align-items: flex-start;
+     }
+ 
 }
