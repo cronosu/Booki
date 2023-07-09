@@ -86,7 +86,7 @@
 
     .hebergementsallCards {
       
-        justify-content: none;
+        justify-content:flex-start ;
      
     }
     /*fin de activité*/
