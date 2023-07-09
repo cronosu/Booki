@@ -279,7 +279,7 @@ form {
     cursor: pointer;
 }
 
-#neutral-star {
+.card-rating .neutral-star {
     color: rgba(128, 128, 128, 0.267);
 }
 

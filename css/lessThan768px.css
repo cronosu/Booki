@@ -67,7 +67,7 @@
         display: inline-block;
     }
 
-    .search button p {
+    .search button span {
         display: none;
     }
 
