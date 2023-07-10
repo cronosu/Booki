@@ -88,24 +88,17 @@
     }
 
     .filtre ul {
-        flex-wrap: wrap;
-        gap: 10px;
-        display: flex;
-        align-items: center;
-
-        justify-content:left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
     }
 
     .filtre ul li {
-        min-width: 120px;
-        width: 25%;
         font-size: 14px;
-        
     }
 
-    .filtre li .fa-solid {
-        font-size: initial;
-    }
+ 
 
 
     /* fin de filtre*/
@@ -113,12 +106,34 @@
     .hebergements-cards {
         width: 100%;
     }
-
+   
     .hebergements-and-populaires .hebergements {
-        background-color: rgb(255, 255, 255);
+        background-color: white;
     }
 
+    .order1 {
+        order: 1;
+    }
 
+    .order2 {
+        order: 2;
+    }
+
+    .order3 {
+        order: 3;
+    }
+
+    .order4 {
+        order: 4;
+    }
+
+    .order5 {
+        order: 5;
+    }
+
+    .order6 {
+        order: 6;
+    }
 
 
     /*fin Hebergements*/
@@ -176,13 +191,12 @@
 
     .card-content-ActiviteMarseille {
         width: 100%;
-        height: 100%;
-
+        
     }
 
     .card-content-ActiviteMarseille img {
-        object-fit: cover;
-        height: 141px;
+        object-fit:cover;
+     
     }
 
     .card-content-ActiviteMarseille h3 {
