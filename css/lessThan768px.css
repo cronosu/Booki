@@ -40,7 +40,6 @@
 
     nav ul .box-lien-navigation-hebergements-populaire:hover,
     nav ul .box-lien-navigation-activite-marseille:hover {
-        position: relative;
         border-bottom: solid 3px var(--main-color);
     }
 
