@@ -12,7 +12,7 @@
         height: 170px;
     }
 
-    .logo {
+    .logo-booki {
         position: inherit;
         top: -30px;
     }
@@ -32,20 +32,20 @@
         height: 73px;
     }
 
-    .navLink:hover {
+    .lien-navigation:hover {
         border: 0;
         padding-top: 9px;
         color: var(--main-color);
     }
 
-    nav ul .heberAndPop:hover,
-    nav ul .ActiMar:hover {
+    nav ul .box-lien-navigation-hebergements-populaire:hover,
+    nav ul .box-lien-navigation-activite-marseille:hover {
         position: relative;
         border-bottom: solid 3px var(--main-color);
     }
 
-    nav ul .ActiMar:hover a,
-    nav ul .heberAndPop:hover a {
+    nav ul .box-lien-navigation-activite-marseille:hover a,
+    nav ul .box-lien-navigation-hebergements-populaire:hover a {
         color: var(--main-color);
     }
 
@@ -143,7 +143,7 @@
 
     }
 
-    .btnMore {
+    .bouton-afficher-plus {
         background-color: white;
     }
 
@@ -179,25 +179,25 @@
     /*Activité à Marseille*/
 
 
-    .activiteMarseille {
+    .activites-marseille {
         margin: 30px;
     }
 
-    .activiteMarseilleAllcars {
+    .activites-marseille-container-cards {
         flex-direction: column;
         gap: 30px;
         height: auto;
     }
 
-    .card-content-ActiviteMarseille {
+    .activites-marseille-card-content {
         width: 100%;
     }
 
-    .card-content-ActiviteMarseille img {
+    .activites-marseille-card-content img {
         object-fit:cover;
     }
 
-    .card-content-ActiviteMarseille h3 {
+    .activites-marseille-card-content h3 {
         padding: 20px;
     }
 
@@ -208,7 +208,7 @@
 
     /*fin de Activité à Marseille*/
     /*Footer*/
-    .containerFooter {
+    .container-footer {
         flex-direction: column;
         gap: 50px;
     }
