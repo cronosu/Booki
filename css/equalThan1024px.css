@@ -11,6 +11,9 @@
     .hebergements {
         width: 100%;
     }
+    .hebergementsallCards {
+        justify-content: flex-start;
+    }
 
     .populaires {
         width: 100%;
@@ -79,18 +82,10 @@
 
     }
 
-    .filtre ul li {
-        font-size: 16px;
-
-    }
-
-    .hebergementsallCards {
-
-        justify-content: flex-start;
-
-    }
-
     /*fin de activité*/
+    /*filtre*/
+
+   
     .filtre {
         display: flex;
         flex-direction: column;
@@ -98,6 +93,9 @@
         height: auto;
         align-items: flex-start;
     }
+    .filtre ul li {
+        font-size: 16px;
 
+    }
    
 }

@@ -191,12 +191,10 @@
 
     .card-content-ActiviteMarseille {
         width: 100%;
-        
     }
 
     .card-content-ActiviteMarseille img {
         object-fit:cover;
-     
     }
 
     .card-content-ActiviteMarseille h3 {
