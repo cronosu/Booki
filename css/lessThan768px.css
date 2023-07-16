@@ -73,18 +73,20 @@
         max-width: 50px;
         border-radius: 15px;
         background-color: var(--main-color);
-        
+
     }
-    .search  {
+
+    .search {
         width: 100%;
     }
-    .barre-recherche{
+
+    .barre-recherche {
         width: 100%;
     }
 
     /*fin de formulaire recherche*/
     /*filtre*/
-    
+
 
     .filtre ul {
         display: grid;
@@ -102,7 +104,7 @@
     .hebergements-cards {
         width: 100%;
     }
-   
+
     .hebergements-and-populaires .hebergements {
         background-color: white;
     }
@@ -149,7 +151,11 @@
         padding: 30px 20px;
 
     }
-
+    .hebergements .hebergements-container-cards article{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .populaires {
         display: flex;
         flex-direction: column;
@@ -189,13 +195,17 @@
         width: 100%;
     }
 
-    
+    .activites-marseille-container-cards article {
+        width: 100%;
+    }
+
 
     .activites-marseille-card-content h3 {
         padding: 20px;
-        margin-left: 0;    }
+        margin-left: 0;
+    }
 
-   
+
 
     /*fin de Activité à Marseille*/
     /*Footer*/

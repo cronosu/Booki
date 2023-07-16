@@ -286,6 +286,11 @@ form {
     justify-content: space-between;
    
 }
+.activites-marseille-container-cards article{
+
+    display: flex;
+    width: 23%;
+}
 
 .activites-marseille-card-content {
     border-radius: 20px;
@@ -297,6 +302,9 @@ form {
     background-color: var(--card-color);
 }
 
+.activites-marseille-container-cards article a{
+    width: 100%;
+}
 
 .card-content-H3 {
     display: flex;
@@ -315,6 +323,7 @@ form {
     min-height: 385px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    width: 100%;
 }
 
 
@@ -360,6 +369,16 @@ form {
 }
 
 /****** Hebergements And Populaires ***********/
+.hebergements .hebergements-container-cards article{
+    
+    width: 29%;
+    height: auto;
+}
+.hebergements .hebergements-container-cards a{
+    
+ width: auto;
+
+}
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;

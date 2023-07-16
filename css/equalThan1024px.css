@@ -51,7 +51,9 @@
         height: 100%;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.163);
     }
-
+    .activites-marseille-container-cards article {
+    height: 100%;
+}
 
     .activites-marseille-card-content img {
         min-height: 200px;
